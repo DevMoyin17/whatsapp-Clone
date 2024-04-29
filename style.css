@@ -355,8 +355,7 @@ font-weight: 400px;
 }
 .img1{
 margin-top: 40px;
-margin-left: 
-
+margin-left:30px; 
 }
  .all{
 margin-left:30px;
@@ -424,11 +423,11 @@ flex-direction: column; */
 color: white;
 font-size: 18px;
 font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-overflow-x: hidden;
+
 }
 @media screen and (max-width: 768px) {
 .text5{
-  font-size: 11px;
+  font-size: 10px;
   margin-left: 10px;
 }
 }
@@ -465,7 +464,7 @@ top: 550%;
 @media screen and (max-width: 768px) {
 .family{
 top: 490% !important; 
-left: 50px !important;
+left: -15px !important;
 }
 }
 .text6{
@@ -488,17 +487,19 @@ margin-left: 30px;
 @media screen and (max-width: 768px) {
 .laugh{
 margin-top: 100px;
+margin-left: -30px !important;
 }
 }
 .beach{
 position: absolute;
-top: 660%;
+top: 655%;
+left: 100px;
 
 }
 @media screen and (max-width: 768px) {
 .beach{
-  top: 600%;
-  left:150px !important;  
+  top: 610%;
+  /* left:150px !important;   */
   width: 400px;
    
 }
