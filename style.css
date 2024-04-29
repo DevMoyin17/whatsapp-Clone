@@ -355,7 +355,7 @@ font-weight: 400px;
 }
 .img1{
 margin-top: 40px;
-margin-left:30px; 
+margin-left:30px !important; 
 }
  .all{
 margin-left:30px;
@@ -367,7 +367,7 @@ margin-left:30px;
 } 
 @media screen and (max-width: 768px) {
 .img1 {
-  margin-left:30px !important;
+  /* margin-left:-10px !important; */
 }
 }
 .learn{
@@ -454,7 +454,7 @@ margin-top: 100px;
 }
 @media screen and (max-width: 768px) {
 .wallpaper{
-margin-left: 30px;
+ /* left: -10px !important;  */
 }
 }
 .family{
@@ -464,7 +464,7 @@ top: 550%;
 @media screen and (max-width: 768px) {
 .family{
 top: 490% !important; 
-left: -15px !important;
+ left: -10px !important; 
 }
 }
 .text6{
@@ -498,7 +498,7 @@ left: 100px;
 }
 @media screen and (max-width: 768px) {
 .beach{
-  top: 610%;
+  top: 615%;
   /* left:150px !important;   */
   width: 400px;
    
