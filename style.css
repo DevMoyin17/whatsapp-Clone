@@ -466,14 +466,10 @@ position: relative;
 margin-top: 100px;
 
 }
-@media screen and (max-width: 768px) {
-.wallpaper{
- text-align: center;
-}
-}
+
 .family{
 position: absolute;
-top: 550%;
+top: 545%;
  
 
  }
