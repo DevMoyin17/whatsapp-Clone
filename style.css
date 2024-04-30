@@ -299,14 +299,14 @@ margin-top: 100px;
 }
 @media screen and (min-width:991px) {
 .small,.small2{
-display: none;
+display: none
 }
 }
 @media screen and (max-width:768px) {
 .small,.small2{
 width: 65%;
 margin-left: 50px;
-margin-top: 20px;
+margin-top: 50px;
 }
 }
 .text{
@@ -320,7 +320,7 @@ margin-left: 200px;
 }
 @media screen and (max-width: 768px) {
 .text {
-  font-size: 17px;
+  font-size: 18px;
   line-height:18px;
   margin-top:40px;
   margin-left: 20px;
@@ -342,7 +342,7 @@ font-weight: 400px;
 @media screen and (max-width: 768px) {
 .text1 {
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   line-height: 30px;
   
 }
@@ -368,8 +368,9 @@ margin-left:30px;
 @media screen and (max-width: 768px) {
 .img1 {
    /* padding: 20px; */
-  width: 350px;
+  width: 300px;
   text-align: center;
+  
   
 }
 }
@@ -411,6 +412,7 @@ width: 100%;
   .container1{
     width: 350px;
     margin-left: 30px;
+    margin-top: 100px;
   }
 }
 
@@ -470,12 +472,15 @@ margin-top: 100px;
 }
 .family{
 position: absolute;
-top: 550%; 
+top: 560%;
+ 
 
  }
 @media screen and (max-width: 768px) {
 .family{
-top: 510% !important; 
+top: 530% !important;
+width: 100px !important;
+
  
  
 } 
@@ -495,28 +500,27 @@ font-size: 40px;
 }
 .laugh{
 position: relative;
+margin-top: 100px;
 
 }
 @media screen and (max-width: 768px) {
 .laugh{
 text-align: center;
-margin-top: 100px;
+
 }
 }
 .beach{
 position: absolute;
-top: 665%;
-left: 150px !important;
+top: 670%;
+left: 130px !important;
 
 
 }
 @media screen and (max-width: 768px) {
 .beach{
-  top: 635%;
+  top: 648%;
   /* left:150px !important;*/
   
- 
-   
 }
 }
 .text8{
@@ -543,11 +547,11 @@ margin-top:200px;
 @media screen and (max-width: 768px) {
 .transform,.say{
  font-size: 35px;
- margin-top: 80px;
+ margin-top: 100px;
  line-height: 30px;
 }
 }
-
+/* 
 .last{
     background-color: rgb(104, 170, 104);
     color: black;
@@ -555,11 +559,16 @@ margin-top:200px;
     padding: 8px 50px ;
     border-radius: 50px;
     text-decoration: none;
+} */
+.catalog{
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
-    .last{
-     margin-left: -100px;
+    .catalog{
+      margin-left: 60px;
+      margin-top: 100px;
+     
     }
     }
     .express{
